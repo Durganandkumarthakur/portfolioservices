@@ -2,7 +2,7 @@
 
 ## 🚀 Live Demo
 
-🔗 https://durganandkumarthakur.github.io/new-animated-portfolio/
+🔗 https://durganandkumarthakur.github.io/portfolioservices/
 
 ---
 
