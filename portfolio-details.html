@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+  <title>Portfolio Details - Durganand Devs</title>
+  <meta name="description" content="">
+  <meta name="keywords" content="">
+
+  <!-- Favicons -->
+  <link href="assets/img/logo.webp" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com" rel="preconnect">
+  <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Raleway:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- Main CSS File -->
+  <link href="assets/css/main.css" rel="stylesheet">
+</head>
+
+<body class="portfolio-details-page">
+
+  <header id="header" class="header d-flex align-items-center sticky-top">
+    <div class="container-fluid container-xl position-relative d-flex align-items-center">
+
+      <a href="index.html" class="logo d-flex align-items-center me-auto">
+        <!-- Uncomment the line below if you also wish to use an image logo -->
+        <!-- <img src="assets/img/logo.webp" alt=""> -->
+        <h1 class="sitename">Durganand Devs</h1>
+      </a>
+
+      <nav id="navmenu" class="navmenu">
+        <ul>
+          <li><a href="index.html#hero">Home</a></li>
+          <li><a href="index.html#about">About</a></li>
+          <li><a href="index.html#resume">Resume</a></li>
+          <li class="dropdown"><a href="services-details.html"><span>Services</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="index.html#services">All Services</a></li>
+              <li><a href="services-details.html">Freelance Packages</a></li>
+            </ul>
+          </li>
+          <li class="dropdown"><a href="index.html#portfolio" class="active"><span>Portfolio</span> <i class="bi bi-chevron-down toggle-dropdown"></i></a>
+            <ul>
+              <li><a href="index.html#portfolio">My Work</a></li>
+              <li><a href="portfolio-details.html">Project Details</a></li>
+            </ul>
+          </li>
+          <li><a href="index.html#contact">Contact</a></li>
+        </ul>
+        <i class="mobile-nav-toggle d-xl-none bi bi-list"></i>
+      </nav>
+
+      <a class="btn-getstarted" href="index.html#contact">Hire Me</a>
+
+    </div>
+  </header>
+
+  <main class="main">
+
+    <!-- Page Title -->
+    <div class="page-title light-background">
+      <div class="container">
+        <nav class="breadcrumbs">
+          <ol>
+            <li><a href="index.html">Home</a></li>
+            <li class="current">Portfolio Details</li>
+          </ol>
+        </nav>
+        <h1>Project Overview</h1>
+      </div>
+    </div><!-- End Page Title -->
+
+    <!-- Portfolio Details Section -->
+    <section id="portfolio-details" class="portfolio-details section">
+
+      <!-- Section Title -->
+      <div class="container section-title" data-aos="fade-up">
+        <span class="subtitle">Portfolio</span>
+        <h2>About These Projects</h2>
+        <p>Company projects are private and cannot be shared as live demos. Personal projects can include public links when available.</p>
+      </div><!-- End Section Title -->
+
+      <div class="container" data-aos="fade-up" data-aos-delay="100">
+
+        <div class="row gy-5">
+
+          <div class="col-lg-8">
+
+            <div class="portfolio-details-slider swiper init-swiper">
+              <script type="application/json" class="swiper-config">
+                {
+                  "loop": true,
+                  "speed": 600,
+                  "autoplay": {
+                    "delay": 4000
+                  },
+                  "slidesPerView": 1,
+                  "spaceBetween": 0,
+                  "effect": "fade",
+                  "pagination": {
+                    "el": ".swiper-pagination",
+                    "type": "bullets",
+                    "clickable": true
+                  }
+                }
+              </script>
+              <div class="swiper-wrapper">
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-3.webp" alt="Portfolio Image" class="img-fluid">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-6.webp" alt="Portfolio Image" class="img-fluid">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-9.webp" alt="Portfolio Image" class="img-fluid">
+                </div>
+
+                <div class="swiper-slide">
+                  <img src="assets/img/portfolio/portfolio-11.webp" alt="Portfolio Image" class="img-fluid">
+                </div>
+
+              </div>
+              <div class="swiper-pagination"></div>
+            </div>
+
+            <div class="portfolio-content" data-aos="fade-up" data-aos-delay="200">
+              <h2>Company Projects (No Public Live Link)</h2>
+              <p>These were built independently at my company. They are internal/proprietary systems, so there is <strong>no live demo URL</strong> for visitors. That is normal for ERP, CRM, admin panels, and IVR work.</p>
+
+              <div class="highlights-box">
+                <h4>Company work</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> <strong>ERP &amp; CRM</strong> - business operations and customer management</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>Admin Panel</strong> - Laravel, roles, data management</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>E-commerce</strong> - Laravel store, cart, checkout, orders</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>IVR System</strong> - Python, call flows (ongoing)</li>
+                </ul>
+              </div>
+
+              <h3>Personal Projects</h3>
+              <p>These are my own builds. Live or GitHub links can be added here when you want to share them publicly.</p>
+
+              <div class="highlights-box">
+                <h4>Personal work</h4>
+                <ul>
+                  <li><i class="bi bi-check-circle"></i> <strong>Code Editor</strong> - React.js, Tailwind CSS</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>Akounced Accounting</strong> - PHP, MySQL, HTML, CSS, JavaScript</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>Portfolio Website</strong> - HTML, CSS, JavaScript (this site)</li>
+                  <li><i class="bi bi-check-circle"></i> <strong>Voice Assistant</strong> - Python</li>
+                </ul>
+              </div>
+
+              <p class="mt-3"><a href="index.html#portfolio">Back to portfolio grid</a> ? <a href="services-details.html">Full project details</a></p>
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-4">
+
+            <div class="sidebar" data-aos="fade-up" data-aos-delay="200">
+
+              <div class="info-card">
+                <h3>Live demo policy</h3>
+                <div class="info-item">
+                  <span class="label">Company projects</span>
+                  <span class="value">No public live link (private)</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Personal projects</span>
+                  <span class="value">Links optional when public</span>
+                </div>
+                <div class="info-item">
+                  <span class="label">Technologies</span>
+                  <span class="value">Laravel, PHP, MySQL, React, Tailwind, Python</span>
+                </div>
+                <p class="small text-muted mt-2 mb-3">Recruiters and clients can review scope and stack here without needing a live company URL.</p>
+                <a href="index.html#contact" class="btn-primary">
+                  <i class="bi bi-envelope"></i> Discuss a Similar Project
+                </a>
+                <a href="index.html#portfolio" class="btn-secondary d-block text-center mt-2">
+                  View Portfolio
+                </a>
+              </div>
+
+              <div class="share-card" data-aos="fade-up" data-aos-delay="300">
+                <h3>Connect</h3>
+                <div class="social-links">
+                  <a href="https://github.com/Durganandkumarthakur" target="_blank" rel="noopener noreferrer" title="GitHub"><i class="bi bi-github"></i></a>
+                  <a href="https://www.linkedin.com/in/durganand-kumar-thakur/" target="_blank" rel="noopener noreferrer" title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                  <a href="mailto:durganand.devs@gmail.com" title="Email"><i class="bi bi-envelope"></i></a>
+                </div>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section><!-- /Portfolio Details Section -->
+
+  </main>
+
+  <footer id="footer" class="footer">
+
+    <div class="container footer-top">
+      <div class="row gy-4">
+        <div class="col-lg-5 col-md-12 footer-about">
+          <a href="index.html" class="logo d-flex align-items-center">
+            <span class="sitename">Durganand Devs</span>
+          </a>
+          <p>Full-stack developer building Laravel apps, PHP systems, React tools, and Python automation. Available for freelance and job opportunities.</p>
+          <div class="social-links d-flex mt-4">
+            <a href="https://github.com/Durganandkumarthakur" target="_blank" rel="noopener noreferrer"><i class="bi bi-github"></i></a>
+            <a href="https://www.facebook.com/durganand.kumarthakur.12" target="_blank" rel="noopener noreferrer"><i class="bi bi-facebook"></i></a>
+            <a href="https://www.instagram.com/durgan_thakur/" target="_blank" rel="noopener noreferrer"><i class="bi bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/durganand-kumar-thakur/" target="_blank" rel="noopener noreferrer"><i class="bi bi-linkedin"></i></a>
+          </div>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Useful Links</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#portfolio">Portfolio</a></li>
+            <li><a href="services-details.html">Freelance Services</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="terms.html">Terms of service</a></li>
+            <li><a href="privacy.html">Privacy policy</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-2 col-6 footer-links">
+          <h4>Freelance Services</h4>
+          <ul>
+            <li><a href="index.html#service-erp-crm">ERP &amp; CRM</a></li>
+            <li><a href="index.html#service-code-editor">Code Editor</a></li>
+            <li><a href="index.html#service-accounting">Akounced Accounting</a></li>
+            <li><a href="index.html#service-voice-assistant">Voice Assistant</a></li>
+            <li><a href="index.html#service-erp-crm">ERP &amp; CRM</a></li>
+            <li><a href="services-details.html">View All Projects</a></li>
+          </ul>
+        </div>
+
+        <div class="col-lg-3 col-md-12 footer-contact text-center text-md-start">
+          <h4>Contact Us</h4>
+          <p>Noida, India</p>
+          <p class="mt-4"><strong>Phone:</strong> <span>+91 73210-65905</span></p>
+          <p><strong>Jobs:</strong> <span>durganandpatna6@gmail.com</span></p>
+          <p><strong>Services:</strong> <span>durganand.devs@gmail.com</span></p>
+        </div>
+
+      </div>
+    </div>
+  </footer>
+
+
+  <!-- Scroll Top -->
+  <a href="#" id="scroll-top" class="scroll-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Preloader -->
+  <div id="preloader"></div>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+  <script src="assets/vendor/typed.js/typed.umd.js"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
+  <script src="assets/vendor/imagesloaded/imagesloaded.pkgd.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
+
+  <!-- Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
